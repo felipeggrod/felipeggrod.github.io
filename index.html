@@ -1,7 +1,517 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./personal/social.css">
+    <!--     <link rel="stylesheet" href="./personal/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="shortcut icon" href="./personal/favicon.ico">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112428951-3"></script> -->
+    <!--     <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112428951-3');
+    </script> -->
+
+    <style>
+        .btn {
+            border-radius: 3em;
+        }
+
+        .btn-shadow {
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .2)
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .darkbg {
+            background-color: rgb(15, 15, 15);
+        }
+
+        body {
+            font-family: 'Circular Std', sans-serif !important;
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            /* max-height: 100px; */
+            height: 35px;
+        }
+
+        .bigfont {
+            font-size: 6rem;
+            font-weight: 900;
+        }
+
+        .medfont {
+            font-size: 1rem;
+        }
+
+        .mainImage {
+            width: 75%;
+        }
+
+        /*         .brand {
+            height: 35px;
+        } */
+    </style>
+
+
+    <title>Conceptor</title>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="row">
+        <div class="col-12 text-center ">
+            <h1 class=" bigfont text-white bg-primary btn-shadow ">
+                <b> Conceptor
+                </b>
+            </h1>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-1 col-10 tab-content p-0">
+
+            <div class="row">
+                <div class="d-block d-md-none col-12 text-justify text-center p-5 ">
+                    <img src="./personal/images/upscaledGuy.jpg" class="img-fluid  center-block rounded btn-shadow"
+                        alt="" />
+                </div>
+
+                <div class=" col-md-6 text-justify p-md-5  my-auto">
+                    <h4><b>Make amazing concept art with AI.
+                        </b></h4>
+                    <br />
+                    <p>
+                        Enough with weird looking AI images.
+                        <br />
+                        Create concept art for your projects in any style you want.
+                        <br />
+                        Painted, Stylized, Cartoonish,
+                        you
+                        name it.
+                        <br />
+
+                    </p>
+                    <br />
+
+                    <h4><b> Describe what you want: </b> </h4>
+                    <p>[Style] [Object] [Theme] </p>
+
+                    <br />
+
+                    <h4><b> Get incredible results. </b> </h4>
+                    <br />
+                    </b>
+
+                    <button class="btn btn-primary m-1"
+                        onClick="document.getElementById('email_form').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+                        Get Access
+                    </button>
+                    <br />
+                    <br />
+
+                </div>
+                <div class="d-none d-md-block col-md-6 text-justify text-center p-5">
+                    <img src="./personal/images/upscaledGuy.jpg"
+                        class="img-fluid mainImage center-block rounded btn-shadow" alt="" />
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div id="carouselExampleIndicators3" class="carousel slide  col-6 p-5 rounded" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/i (1).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/i (2).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/i (3).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/i (4).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/i (5).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/i (6).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <h5 class=" text-center m-3">
+                    [Stylized Illustration] [Metal helmet with red feathers on top] [Medieval, Fantasy]
+                    <br />
+                </h5>
+            </div>
+
+
+            <div id="ref123" class="carousel slide  col-6  darkbg btn-shadow p-5 rounded" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#ref123" data-slide-to="0" class="active"></li>
+                    <li data-target="#ref123" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/r (1).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/r (2).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/r (3).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/r (4).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/r (5).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/r (6).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#ref123" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#ref123" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <h5 class="text-white text-center m-3">
+                    [Realistic Painting] [Male portrait metal helmet with red feathers on top] [Medieval, Fantasy]
+                    <br />
+                </h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="cyez" class="carousel slide  col-6 p-5 rounded" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#cyez" data-slide-to="0" class="active"></li>
+                    <li data-target="#cyez" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/d (1).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/d (2).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/d (3).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/d (4).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/d (5).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/d (6).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#cyez" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#cyez" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <h5 class=" text-center m-3">
+                    [Concept Art] [Metal helmet with red feathers on top] [Medieval, Fantasy]
+                    <br />
+                </h5>
+            </div>
+
+
+            <div id="ref45" class="carousel slide  col-6  darkbg btn-shadow p-5 rounded" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#ref45" data-slide-to="0" class="active"></li>
+                    <li data-target="#ref45" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/t (1).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/t (2).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/t (3).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./personal/images/t (4).png" class="img-fluid center-block rounded shadow-lg"
+                                    alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/t (5).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./personal/images/t (6).png" class="img-fluid center-block rounded " alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#ref45" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#ref45" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <h5 class="text-white text-center m-3">
+                    [Cartoonish] [Metal helmet with red feathers on top] [Medieval, Fantasy]
+                    <br />
+                </h5>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="offset-2 col-8 ">
+            <h5 class=" text-left text-justify m-2 m-md-5 p-2 p-md-5">
+                <p>
+                    Say goodbye to generic and uninspired
+                    designs
+                    and
+                    welcome to a whole new world of creativity. <br> Our custom AI model is here to transform
+                    your
+                    games
+                    and
+                    films with stunning concept art that's tailor-made for your vision.
+
+                    <br><br>
+
+                    With our carefully crafted model, you can create concept art in any style you can imagine. <br>
+                    Whether
+                    you're
+                    looking for a classic painted look, a stylized edge, or a whimsical cartoonish feel, our AI has got
+                    you
+                    covered.
+
+                    <br><br>
+                    Simply tell us the style, object, and theme you want, and watch as our AI brings your vision to life
+                    in
+                    breathtaking detail. You'll get incredible results every time, no matter how
+                    complex
+                    your
+                    project.
+                    <br><br>
+                    Don't wait to experience the future of concept art. Join the waiting list and be one
+                    of
+                    the
+                    first
+                    to see it.
+                </p>
+            </h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="ref333" class="carousel slide  col-12  darkbg btn-shadow p-5 rounded" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#ref333" data-slide-to="0" class="active"></li>
+                <li data-target="#ref333" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active item">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <img src="./personal/images/z (1).png" class="img-fluid center-block rounded" alt="" />
+                        </div>
+                        <div class="col-md-2 ">
+                            <img src="./personal/images/z (2).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./personal/images/z (3).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+                        <div class="col-md-2 ">
+                            <img src="./personal/images/z (4).png" class="img-fluid center-block rounded" alt="" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./personal/images/z (5).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./personal/images/z (6).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <img src="./personal/images/z (7).png" class="img-fluid center-block rounded" alt="" />
+                        </div>
+                        <div class="col-md-2 ">
+                            <img src="./personal/images/z (8).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./personal/images/z (9).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+                        <div class="col-md-2 ">
+                            <img src="./personal/images/z (10).png" class="img-fluid center-block rounded" alt="" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./personal/images/z (11).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="./personal/images/z (12).png" class="img-fluid center-block rounded " alt="" />
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#ref333" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#ref333" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <h5 class="text-white text-center m-3">
+                Other results
+                <br />
+            </h5>
+        </div>
+    </div>
+    </div>
+
+    <div id="email_form" class="offset-3 col-6   p-5 p-5 p-5 mb-5 mt-3">
+        <h1>Join the waiting list.</h1>
+        <!-- <h1>Notify when it's available.</h1> -->
+        <form name="submit-to-google-sheet">
+            <div class="form-group">
+                <input name="email" type="email" placeholder="Email" required class="form-control" id="email">
+                <select name="style" id="style" class="custom-select my-2">
+                    <option selected="Default">Which style are you most interested in?</option>
+                    <option value="All">All</option>
+                    <option value="Realistic">Realistic</option>
+                    <option value="Concept Art">Concept Art</option>
+                    <option value="Stylized">Stylized</option>
+                    <option value="Cartoonish">Cartoonish</option>
+                </select>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzq9CjxbiTNGkaSHXqWfcE_x9SenbSoYFJ6SlFTCWMO8gbNIwXCe95ZnYd-nvav0NpF0g/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    alert("Email successfuly received.")
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    </div>
+
 </body>
+
 </html>
